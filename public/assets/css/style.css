@@ -1,0 +1,33 @@
+body {
+  background-color: #F2D388;
+  text-align: center;
+  /* color: #eee; */
+}
+
+h1 {
+  color: #F26C4E;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 8%;
+}
+
+pre {
+  height: 50px;
+  background-color: white;
+}
+
+#newBurg {
+
+}
+
+
+
+textarea {
+  width: 40%;
+  height: 100px;;
+}
