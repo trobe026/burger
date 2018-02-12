@@ -1,11 +1,23 @@
 body {
   background-color: #F2D388;
   text-align: center;
-  /* color: #eee; */
+
+  font-family: 'Indie Flower', cursive;
+  /* font-family: 'Nanum Brush Script', cursive; */
 }
 
-h1 {
+h1, h2, p {
+  font-family: 'Anton', sans-serif;
   color: #F26C4E;
+}
+
+pre {
+  font-family: 'Nanum Brush Script', cursive;
+  font-size: 1.5em;
+}
+
+p {
+  font-family: 'Indie Flower', cursive;
 }
 
 ul {
@@ -13,21 +25,44 @@ ul {
 }
 
 img {
-  width: 8%;
+  position: relative;
+  -webkit-animation-name: moveburg;
+  -webkit-animation-duration: 2s;
+  animation-name: moveburg;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  width: 12%;
+  z-index: 2;
 }
+
+/* @-webkit-keyframes moveburg {
+    0%   {left:0px; top:0px;}
+    25%  {left:0px; top:390px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+} */
+
+/* @keyframes moveburg {
+    0%   {left:0px; top:0px;}
+    25%  {left:-600px; top:390px;}
+    50%  {left:0px; top:575px;}
+    75%  {left:600px; top:200px;}
+    100% {left:0px; top:0px;}
+} */
 
 pre {
-  height: 50px;
+  height: 3em;
   background-color: white;
+  text-align: center;
 }
-
-#newBurg {
-
-}
-
 
 
 textarea {
   width: 40%;
   height: 100px;;
+}
+
+.btn {
+  margin: 5px auto;
 }
